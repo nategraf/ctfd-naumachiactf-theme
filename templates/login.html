@@ -39,7 +39,10 @@
 						</a>
 					</div>
 					<div class="col-md-6">
-						{{ form.submit(class="btn btn-md btn-primary btn-outlined float-right") }}
+						<span class="float-right">
+							<a class="btn btn-md btn-secondary btn-outlined mr-1" href="/register">Register</a>
+							{{ form.submit(class="btn btn-md btn-primary btn-outlined") }}
+						</span>
 					</div>
 				</div>
 				{{ form.nonce() }}
